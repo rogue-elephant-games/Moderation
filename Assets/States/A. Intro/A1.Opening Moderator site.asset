@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab913b2a91215a24e9039c1da2f9f635, type: 3}
+  m_Name: A1.Opening Moderator site
+  m_EditorClassIdentifier: 
+  storyText: 'Another typical day, I open up my forum moderator admin site and go
+    through newly added posts.
+
+    There are a lot more posts than normal, usually
+    I would expect about 10 new posts but today there are 33!
+
+
+
+    That''s a lot
+    of posts to get through!
+
+
+
+    What should I do?
+
+    1. Start with the newest.
+
+    2.
+    Start with the oldest.'
+  nextStates:
+  - {fileID: 11400000, guid: c812e7ae6fdc1c84bbe1492a77f4b1b4, type: 2}
+  - {fileID: 11400000, guid: d46ad603dd212b449864c170b1f3b906, type: 2}

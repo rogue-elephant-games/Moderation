@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab913b2a91215a24e9039c1da2f9f635, type: 3}
+  m_Name: A0. Intro
+  m_EditorClassIdentifier: 
+  storyText: 'This is Moderation.
+
+    You are a moderator for a small forum focused
+    on discussions around zoos that people like.
+
+
+    As you move through the story
+    you will be presented with different options that lead to different paths. To
+    choose an option simply press the corresponding number on your keyboard.
+
+
+    1.
+    Start Game'
+  nextStates:
+  - {fileID: 11400000, guid: 83a52ecd12f10d748905d5213bfeac42, type: 2}

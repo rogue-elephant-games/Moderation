@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab913b2a91215a24e9039c1da2f9f635, type: 3}
+  m_Name: E1. MI5
+  m_EditorClassIdentifier: 
+  storyText: 'A few moments later you receive a phone call from someone claiming
+    to be from MI5.
+
+    They say that they believe the zoo forum is potentially
+    being used by terrorists to plot an attack.
+
+    
+
+    They ask if you have
+    seen any suspicious activity
+
+
+    1. Report Catesby511
+
+    2. Report Guido
+    134
+
+    3. Hang up'
+  nextStates:
+  - {fileID: 11400000, guid: 37f9ab9f174b0924cb093f846667eb2d, type: 2}
+  - {fileID: 11400000, guid: 5c3cc008d4515a5449126051626cbfe7, type: 2}
+  - {fileID: 11400000, guid: ba1f48c85440fdb45bb27a4b938790cc, type: 2}
